@@ -98,10 +98,12 @@ header
   {
     .deal__item
     {
-      &:hover
-      {
-        transform: scale(1.2);
-        cursor: pointer;
+      @media (min-width:$breakpoint__medium) {
+        &:hover
+        {
+          transform: scale(1.2);
+          cursor: pointer;
+        }
       }
     }
   }

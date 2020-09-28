@@ -9957,9 +9957,11 @@ header h1 {
     grid-gap: 50px;
   }
 }
-.deal--hoverable .deal__item:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+@media (min-width: 991px) {
+  .deal--hoverable .deal__item:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 }
 .deal .deal__item {
   transition: ease-in-out, 0.3s;
