@@ -1,0 +1,22 @@
+.btn{
+  border-radius: 30px;
+  padding:$gutter__space/2 $gutter__space;
+  text-transform: uppercase;
+  @media(max-width: $breakpoint__medium) {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.start__project
+{
+  @include button-variant($primary_color, $primary_color);
+}
+
+.btn-secondary
+{
+  @include button-variant($secondary_color, $secondary_color);
+}
+
+
+

@@ -1,0 +1,44 @@
+
+// common color shades
+$body_bg : #f2f2f2;
+$white: #fff;
+
+$gray_light: #AEAEAE;
+$gray_lighter: rgba(111, 111, 111, 0.5);
+
+$gray_dark: #6F6F6F;
+$gray_darker: #333;
+
+
+
+// fonts
+$font_size_base: 16;
+$font_base_line_height: 1.4;
+$font_primary: 'Roboto', sans-serif;
+$font_weight_normal: 400;
+
+// spacing
+$gutter_space: 20px;
+$padding_left: $gutter_space;
+$padding_top: $gutter_space;
+
+// breakpoints
+$breakpoint__extra__large: 1450px;
+$breakpoint__large: 1200px;
+$breakpoint__medium: 991px;
+$breakpoint__small: 767px;
+$breakpoint__extra__small: 550px;
+
+// container width
+
+$container__max__width__extra__large : 1440px;
+
+
+// buttons
+
+$button_border_radius: 30px;
+$border_radius_default: 4px;
+$boxshadow_default : 0px 0px 4px rgba(0, 0, 0, 0.5);
+
+
+$border_color_form_control: #979797;
